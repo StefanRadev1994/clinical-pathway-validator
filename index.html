@@ -204,10 +204,13 @@
       <label for="inputText">Текст за проверка:</label>
       <textarea id="inputText" placeholder="Поставете текста с резултати от изследвания тук..."></textarea>
     </div>
-    <button class="btn-check" id="checkBtn" disabled>🔍 Провери</button>
+    <div style="display:flex;gap:10px;margin-top:22px;">
+  <button class="btn-check" id="checkBtn" disabled style="margin-top:0;">🔍 Провери</button>
+  <button class="btn-check" id="resetBtn" style="margin-top:0;background:#64748b;box-shadow:0 2px 8px rgba(100,116,139,0.25);flex:0 0 auto;width:52px;padding:14px 0;" title="Изчисти">🔄</button>
+</div>
     <div id="results" class="results"></div>
   </div>
-  <p class="footer">Клинична Пътека Валидатор v1.1</p>
+  <p class="footer">Клинична Пътека Валидатор by Stefan Radev</p>
 </div>
 
 <script>
